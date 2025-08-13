@@ -30,8 +30,8 @@ export const Contact = () => {
               </CardHeader>
               <CardContent>
                 <Button variant="outline" asChild>
-                  <a href="mailto:john.developer@email.com">
-                    john.developer@email.com
+                  <a href="mailto:kenmwangi250@gmail.com">
+                    kenmwangi250@gmail.com
                   </a>
                 </Button>
               </CardContent>
@@ -48,8 +48,8 @@ export const Contact = () => {
               </CardHeader>
               <CardContent>
                 <Button variant="outline" asChild>
-                  <a href="tel:+1234567890">
-                    +1 (234) 567-8900
+                  <a href="tel:+254791569999">
+                    +254 791 569 999
                   </a>
                 </Button>
               </CardContent>
@@ -66,7 +66,7 @@ export const Contact = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  San Francisco, CA
+                  Nairobi, KE
                   <br />
                   Remote Worldwide
                 </p>
@@ -86,13 +86,13 @@ export const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" asChild>
-                  <a href="mailto:john.developer@email.com">
+                  <a href="mailto:kenmwangi250@gmail.com">
                     <Mail className="w-5 h-5 mr-2" />
                     Send Email
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <a href="tel:+1234567890">
+                  <a href="tel:+254791569999">
                     <Phone className="w-5 h-5 mr-2" />
                     Call Now
                   </a>

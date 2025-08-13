@@ -1,6 +1,8 @@
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin, Twitter } from 'lucide-react';
 import profilePhoto from '@/assets/profile-pic.jpeg';
+import {Link} from 'react-router-dom';
+import {urls} from '../lib/utils';
 
 export const Hero = () => {
   return (
@@ -17,20 +19,26 @@ export const Hero = () => {
               Full Stack Software Developer
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl">
-              Passionate about creating exceptional digital experiences with over 5 years of experience 
+              Passionate about creating exceptional digital experiences with over five years of experience 
               in modern web technologies, DevOps, and cloud solutions.
             </p>
             
             {/* Social Links */}
             <div className="flex space-x-4">
               <Button variant="outline" size="icon">
-                <Github className="h-5 w-5" />
+                <Link to={urls.github} target="_blank">
+                 <Github className="h-5 w-5" />
+                </Link>
               </Button>
               <Button variant="outline" size="icon">
-                <Linkedin className="h-5 w-5" />
+                <Link to={urls.linkedin} target='_blank'>
+                  <Linkedin className="h-5 w-5" />
+                </Link>
               </Button>
               <Button variant="outline" size="icon">
-                <Twitter className="h-5 w-5" />
+                <Link to={urls.twitter} target='_blank'>
+                  <Twitter className="h-5 w-5" />
+                </Link>
               </Button>
             </div>
             

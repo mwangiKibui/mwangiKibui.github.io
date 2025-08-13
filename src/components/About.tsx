@@ -40,7 +40,7 @@ export const About = () => {
                     <div>• React & Next.js</div>
                     <div>• TypeScript</div>
                     <div>• Node.js & Express</div>
-                    <div>• Python & Django</div>
+                    <div>• C# & ASP.NET</div>
                   </div>
                   <div className="space-y-2">
                     <div>• AWS & Azure</div>

@@ -42,8 +42,7 @@ export const Projects = () => {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-6"></div>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills in full-stack development, 
-            UI/UX design, and modern web technologies.
+            Here are some of my recent worked on projects.
           </p>
         </div>
         
