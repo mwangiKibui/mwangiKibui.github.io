@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin, Twitter } from 'lucide-react';
-import profilePhoto from '@/assets/profile-photo.jpg';
+import profilePhoto from '@/assets/profile-pic.jpeg';
 
 export const Hero = () => {
   return (
@@ -11,7 +11,7 @@ export const Hero = () => {
           <div className="space-y-6">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground">
               Hi, I'm{' '}
-              <span className="text-primary">John Developer</span>
+              <span className="text-primary">Kennedy Kibui</span>
             </h1>
             <h2 className="text-xl sm:text-2xl text-muted-foreground">
               Full Stack Software Developer
@@ -58,7 +58,7 @@ export const Hero = () => {
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl"></div>
               <img
                 src={profilePhoto}
-                alt="John Developer"
+                alt="Kennedy Kibui"
                 className="relative z-10 w-80 h-80 object-cover rounded-full border-4 border-primary/20"
               />
             </div>
