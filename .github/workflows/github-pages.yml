@@ -27,7 +27,7 @@ jobs:
       - name: Upload dist folder to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist   # 👈 point to your build output folder
+          path: dist 
 
   deploy:
     needs: build
