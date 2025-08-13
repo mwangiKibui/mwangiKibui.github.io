@@ -1,33 +1,33 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Github } from 'lucide-react';
-import project1 from '@/assets/project-1.jpg';
-import project2 from '@/assets/project-2.jpg';
-import project3 from '@/assets/project-3.jpg';
+import project1 from '@/assets/chamasoft.jpg';
+import project2 from '@/assets/websacco.jpg';
+import project3 from '@/assets/beyondrent.jpg';
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, payment processing, and admin dashboard.",
+    title: "Chamasoft",
+    description: "A solution for digitizing small scale saving groups financial operations",
     image: project1,
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    liveUrl: "https://example.com",
+    technologies: ["React", "NodeJs","Socket.io", "PostgreSQL","AWS","Third-party API Integrations"],
+    liveUrl: "https://chamasoft.com",
     githubUrl: "https://github.com"
   },
   {
-    title: "Task Management Dashboard",
-    description: "A collaborative project management tool with real-time updates, kanban boards, and team collaboration features. Built with modern React and WebSocket technology.",
+    title: "Websacco",
+    description: "A solution for digitizing financial operations of small sized to medium sized Saccos.",
     image: project2,
-    technologies: ["React", "TypeScript", "Socket.io", "PostgreSQL"],
-    liveUrl: "https://example.com",
+    technologies: ["React", "NodeJs", "Socket.io", "PostgreSQL","Akamai","Third-party API Integrations"],
+    liveUrl: "https://websacco.com",
     githubUrl: "https://github.com"
   },
   {
-    title: "Social Media Platform",
-    description: "A modern social networking platform with real-time messaging, post sharing, and user interactions. Includes responsive design and progressive web app features.",
+    title: "Beyond Rent",
+    description: "A solution for managing rent collection and communication for property owners.",
     image: project3,
-    technologies: ["Next.js", "GraphQL", "Redis", "AWS"],
-    liveUrl: "https://example.com",
+    technologies: ["ASP.NET", "React", "MSSQL", "Azure","Third-party API Integrations"],
+    liveUrl: "https://beyondrent.co",
     githubUrl: "https://github.com"
   }
 ];
@@ -85,12 +85,6 @@ export const Projects = () => {
                   <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Live Demo
-                  </a>
-                </Button>
-                <Button variant="outline" size="sm" asChild>
-                  <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                    <Github className="w-4 h-4 mr-2" />
-                    Code
                   </a>
                 </Button>
               </CardFooter>

@@ -1,35 +1,35 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Calendar, ExternalLink } from 'lucide-react';
-import blog1 from '@/assets/blog-1.jpg';
-import blog2 from '@/assets/blog-2.jpg';
-import blog3 from '@/assets/blog-3.jpg';
+import blog1 from '@/assets/audit-logging-nodejs.png';
+// import blog2 from '@/assets/blog-2.jpg';
+// import blog3 from '@/assets/blog-3.jpg';
 
 const posts = [
   {
-    title: "Building Scalable React Applications",
-    description: "Learn best practices for architecting large-scale React applications with proper state management, component composition, and performance optimizations.",
+    title: "Handling Audit Logging In Node.JS",
+    description: "A step by step guide into handling Audit logging in NodeJs.",
     image: blog1,
-    date: "March 15, 2024",
-    readTime: "8 min read",
-    url: "https://example.com/blog/scalable-react"
-  },
-  {
-    title: "DevOps Automation with CI/CD Pipelines",
-    description: "A comprehensive guide to setting up automated deployment pipelines using GitHub Actions, Docker, and cloud platforms for seamless development workflows.",
-    image: blog2,
-    date: "February 28, 2024",
-    readTime: "12 min read",
-    url: "https://example.com/blog/devops-automation"
-  },
-  {
-    title: "Modern Cloud Architecture Patterns",
-    description: "Exploring serverless architecture, microservices, and cloud-native patterns for building resilient and scalable applications in the cloud.",
-    image: blog3,
-    date: "February 10, 2024",
+    date: "May 12, 2024",
     readTime: "10 min read",
-    url: "https://example.com/blog/cloud-architecture"
-  }
+    url: "https://dev.to/mwangikibui/handling-audit-logging-in-nodejs-2j3f"
+  },
+  // {
+  //   title: "DevOps Automation with CI/CD Pipelines",
+  //   description: "A comprehensive guide to setting up automated deployment pipelines using GitHub Actions, Docker, and cloud platforms for seamless development workflows.",
+  //   image: blog2,
+  //   date: "February 28, 2024",
+  //   readTime: "12 min read",
+  //   url: "https://example.com/blog/devops-automation"
+  // },
+  // {
+  //   title: "Modern Cloud Architecture Patterns",
+  //   description: "Exploring serverless architecture, microservices, and cloud-native patterns for building resilient and scalable applications in the cloud.",
+  //   image: blog3,
+  //   date: "February 10, 2024",
+  //   readTime: "10 min read",
+  //   url: "https://example.com/blog/cloud-architecture"
+  // }
 ];
 
 export const Posts = () => {
