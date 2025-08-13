@@ -28,6 +28,11 @@ export default {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
 				},
+				'supabase-green': {
+					DEFAULT: 'hsl(var(--supabase-green))',
+					light: 'hsl(var(--supabase-green-light))',
+					dark: 'hsl(var(--supabase-green-dark))'
+				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
